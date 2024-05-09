@@ -277,8 +277,8 @@ span {
     position: absolute;
     display: block;
     transform: none;
-    bottom: 15%;
-    left: 2%;
+    top: 0%;
+    left: 0%;
   }
   .menu:focus {
     display: block;

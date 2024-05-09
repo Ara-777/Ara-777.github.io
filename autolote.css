@@ -279,8 +279,8 @@ span {
     height: 100%;
   }
   .videof {
-    width: 5000px;
-    height: 5000px;
+    width: 100em;
+    height: 100em;
     position: absolute;
     bottom: 0%;
     left: 0%;

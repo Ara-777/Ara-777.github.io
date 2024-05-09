@@ -279,11 +279,11 @@ span {
     height: 100%;
   }
   .videof {
-    width: 37%;
-    height: 37%;
-    position: relative;
+    width: 50%;
+    height: 37.2%;
+    position: absolute;
     bottom: 0%;
-    left: 10%;
+    left: 0%;
     z-index: -1;
     display: flex;
     top: 30%;

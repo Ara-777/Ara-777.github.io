@@ -273,6 +273,31 @@ span {
   z-index: -1;
 }
 @media screen and (max-width: 600px) {
+  .fondo {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  .videof {
+    width: 50%;
+    height: 37.2%;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    z-index: -1;
+    display: flex;
+    top: 30%;
+  }
+  .video_header {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: alto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+  }
   .menu {
     position: absolute;
     display: block;
@@ -327,7 +352,7 @@ span {
 
   .texto-encima {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;

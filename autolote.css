@@ -25,7 +25,7 @@ body {
   cursor: pointer;
   pointer-events: none;
   position: absolute;
-  bottom: 83%;
+  bottom: 80%;
   left: 2%;
 }
 .menu:hover {
@@ -277,7 +277,7 @@ span {
     position: absolute;
     display: block;
     transform: none;
-    bottom: 80%;
+    bottom: 38%;
     left: 2%;
   }
   .menu:focus {

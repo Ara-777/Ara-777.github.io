@@ -282,7 +282,7 @@ span {
   .videof {
     width: 37%;
     height: 37%;
-    position: fixed;
+    position: relative;
     bottom: 0%;
     left: 10%;
     z-index: -1;

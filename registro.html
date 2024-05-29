@@ -8,6 +8,40 @@
 <link rel="stylesheet" href="style.css">
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 <link rel="icon" href="Logo_sin.ico">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Site Metas -->
+    <title>Home-WestBehance</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="#" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="css/pogo-slider.min.css" />
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css" />
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 <style>
     *{
@@ -21,22 +55,24 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('interior.jpg');
+    background-color: #72727296;
     background-size: cover;
     background-position: center;
 
     }
     .wrapper{
-    width: 420px;
+    width: 440px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    color: #fff;
+    color: #ffffff;
     border-radius: 10px;
-    padding: 30px 40px;
+    padding: 20px 40px;
+    
+    
     }
-    .wrapper h1{
+   .wrapper h1{
     font-size: 36px;
     text-align: center;
     }
@@ -52,14 +88,14 @@
         background: transparent;
         border: none;
         outline: none;
-        border: 2px solid rgba(255, 255, 255, 0.2);
+        border: 2px solid rgb(255, 255, 255);
         border-radius: 40px;
         font-size: 16px;
-        color: #fff;
+        color: #fffefe;
         padding: 20px 45px 20px 20px;
     }
     .input-box input::placeholder{
-        color:#fff;
+        color:#ffffff8a;
     }
     .input-box i{
     position: absolute;
@@ -67,7 +103,7 @@
     top: 50%;
     transform: translateY(-50%);
     font-size: 20px;
-
+    color: #ffffff;
     }
     .wrapper .remember-forgot{
     display: flex;
@@ -76,7 +112,7 @@
     margin: -15px 0 15px;
     }
     .remember-forgot label input{
-    accent-color: #fff;
+    accent-color: #000000;
     margin-right: 3px;
     }
     .wrapper .btn{
@@ -89,7 +125,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     font-size: 16px;
-    color: #333;
+    color: #000000;
     font-weight: 600;
 
     }
@@ -111,7 +147,39 @@
          color: #333; 
          text-decoration: none;
      }
+    
 </style>
+
+ <!-- Start header -->
+ <header class="top-header">
+    <nav class="navbar header-nav navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="imagenes/Logo negro (6).png" alt="image"></a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
+                
+            </button>
+            
+            <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
+                <ul class="navbar-nav">
+                    <li><a class="nav-link active" href="index.html">Home</a></li>
+                    <li><a class="nav-link" href="about.html">About us</a></li>
+                    <li><a class="nav-link" href="services.html">Services</a></li>
+                    <li><a class="nav-link" href="contact.html">Contact us</a></li>
+                    <li><a class="nav-link active" style="background:#0c0b0b6c;color:#fff; border-radius: 50px; " href="registro.html">Sign up now</a></li>
+                </ul>
+            </div>
+            
+            <div class="search-box">
+                <input type="text" class="search-txt" placeholder="Search">
+                <a class="search-btn">
+                    <img src="images/search_icon.png" alt="#" />
+                </a>
+            </div>
+        </div>
+    </nav>
+</header>
+<!-- End header -->
 
 <body>
 
@@ -133,14 +201,11 @@
         
      </div>
  
-        <button type="submit" class="btn"><a class="regis" href="AutoloteExamen.html">Acceder</button>
+        <button type="submit" class="btn"><a class="regis" href="index.html">Acceder</button>
         <div class="register-link">
-            <p>Ya te registraste? <a href="#">Inicia Sesion</a></p>
+            <p>Ya te registraste? <a href="">Inicia Sesion</a></p>
 
              </div>
-
-     
-
           </div>
         </form>
       </div>
